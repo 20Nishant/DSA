@@ -1,0 +1,25 @@
+class Solution:
+    def shuffle(self, nums: List[int], n: int) -> List[int]:
+    
+        # result=[]
+        # for i in range(n):
+        #     result.append(nums[i])
+        #     result.append(nums[n+i])
+        # return result
+            
+        x=nums[:n]
+        y=nums[n:]
+        z=[]
+        for i in range(n):
+            z.append(x[i])
+            z.append(y[i])
+        return
+        # for i in range(n):
+            
+        #     a=z.append(x[i])
+        #     b=z.append(y[i])
+        #     yz=[a,b]
+        #     yz.append(z)
+        # return z
+
+
