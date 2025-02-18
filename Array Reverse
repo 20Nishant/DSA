@@ -1,0 +1,11 @@
+class Solution:
+    def Reversearray(self,nums:list[int]):
+        # b=[]
+        # for i in l[::-1]:
+        #     b.append(i)
+        # return b
+
+        return nums[::-1]
+x=Solution()
+y=x.Reversearray(l)
+print(y)
